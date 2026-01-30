@@ -3,20 +3,23 @@ Este projeto simula o ciclo completo de teste manual de um e-commerce, focado na
 planejamento, escrita de casos de teste, reporte de bugs e análise de qualidade final.
 
 🗺️ 1. Planejamento (Mapa Mental)
+ [Mapa Mental - Planejamento de Teste](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/Mapa%20Mental%20-%20Planejamento%20de%20Teste.png)
+ou 
+[Acessar o link do Mapa Mental ] 
+( https://www.mindmeister.com/app/map/3927305585)
 A estratégia inicial foi baseada no mapeamento das funcionalidades principais para garantir a cobertura total dos requisitos de negócio.
 Funcionalidades Mapeadas:
 * Carrinho: Adição, remoção, alteração de quantidade e validação de estoque. 
 * Checkout: Dados de entrega, seleção de frete, métodos de pagamento e aplicação de cupons.
+
 📝 2. Plano de Teste e Casos de Teste (TC)
 Abaixo, a tabela detalhada com os cenários testados, incluindo pré-condições, dados de teste e resultados esperados.
 [Baixar Planilha de Casos de Teste]( https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/b82b39245b7b249666ce6b04aa7a0d98eecaa603/Planilha%20TC.pdf)
 
 
-
 🐞 3. Gestão de Defeitos (Bug Report)
 Durante a execução, foi identificado um bug crítico no módulo de carrinho, documentado via Jira sob a issue KAN-17.
-[Visualizar o Mapa Mental] ( https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/84cdc7b3cc6d0774910cbff26c658cadea7e6272/QA%20TESTE%20-%20BUG%20.png )
-ou 
+ [Evidência de Bug Report (Jira)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/QA%20TESTE%20-%20BUG%20.png)
 [Acessar o link do Mapa Mental ] 
 ( https://www.mindmeister.com/app/map/3927305585)
 
@@ -35,7 +38,7 @@ SELECT * FROM carrinho_itens WHERE usuario_id = 1 AND produto_nome = 'Meia Espor
 
 
 📊 4. Relatório de Sumário de Testes (TSR)
-[Acessar o relatório] (https://isabelaabraz.atlassian.net/wiki/x/AYAE)
+ [Relatório Sumário de Testes (Confluence)](https://isabelaabraz.atlassian.net/wiki/x/AYAE)
 
 Resumo da Execução
 Total de Testes: 6
@@ -65,7 +68,9 @@ MySQL: Validação técnica de dados e evidências.
 Markdown: Documentação do projeto.
 
 ## 📂 Documentação e Links Úteis
-* 🗺️ [Mapa Mental Completo (MindMeister)][(https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/84cdc7b3cc6d0774910cbff26c658cadea7e6272/QA%20TESTE%20-%20BUG%20.png)]
-* 📑 [Plano de Teste Detalhado (PDF)](./Planilha-sem-titulo-Pagina1.pdf)
-* 📊 [Relatório Sumário de Testes (TSR)](https://isabelaabraz.atlassian.net/wiki/x/AYAE))
-* 🔗 [Meu LinkedIn](https://www.linkedin.com/in/isabela-braz)
+
+* 🗺️ [Mapa Mental - Planejamento de Teste](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/Mapa%20Mental%20-%20Planejamento%20de%20Teste.png)
+* 📑 [Planilha de Casos de Teste (TC)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/Planilha%20TC.pdf)
+* 🐞 [Evidência de Bug Report (Jira)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/QA%20TESTE%20-%20BUG%20.png)
+* 📊 [Relatório Sumário de Testes (Confluence)](https://isabelaabraz.atlassian.net/wiki/x/AYAE)
+* 🔗 [Meu LinkedIn](https://www.linkedin.com/in/isabela-braz-88b910255/)
