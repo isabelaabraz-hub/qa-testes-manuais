@@ -9,7 +9,7 @@ Funcionalidades Mapeadas:
 * Checkout: Dados de entrega, seleção de frete, métodos de pagamento e aplicação de cupons.
 📝 2. Plano de Teste e Casos de Teste (TC)
 Abaixo, a tabela detalhada com os cenários testados, incluindo pré-condições, dados de teste e resultados esperados.
-[Baixar Planilha de Casos de Teste](./Planilha TC.pdf )
+[Baixar Planilha de Casos de Teste]( ./Planilha TC.pdf )
 
 
 
