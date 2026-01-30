@@ -32,6 +32,7 @@ Resultado Atual: O item permanece na interface e no banco de dados após comando
 
 Evidência Técnica (SQL): Para confirmar que o erro ocorria no backend, foi realizada a seguinte query no banco de dados.
 
+
 SELECT * FROM carrinho_itens WHERE usuario_id = 1 AND produto_nome = 'Meia Esportiva';
 -- O registro persistiu no banco mesmo após a tentativa de exclusão.--
 
