@@ -15,6 +15,9 @@ Abaixo, a tabela detalhada com os cenários testados, incluindo pré-condições
 
 🐞 3. Gestão de Defeitos (Bug Report)
 Durante a execução, foi identificado um bug crítico no módulo de carrinho, documentado via Jira sob a issue KAN-17.
+[Visualizar o Mapa Mental] ( https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/84cdc7b3cc6d0774910cbff26c658cadea7e6272/QA%20TESTE%20-%20BUG%20.png )
+ou 
+[Acessar o link do Mapa Mental ] ( https://www.mindmeister.com/app/map/3927305585)
 
 Título: [Carrinho de Compras] Item não é excluído do Carrinho.
 
@@ -26,9 +29,13 @@ Resultado Atual: O item permanece na interface e no banco de dados após comando
 
 Evidência Técnica (SQL): Para confirmar que o erro ocorria no backend, foi realizada a seguinte query no banco de dados.
 
+SELECT * FROM carrinho_itens WHERE usuario_id = 1 AND produto_nome = 'Meia Esportiva';
+-- O registro persistiu no banco mesmo após a tentativa de exclusão.--
 
 
 📊 4. Relatório de Sumário de Testes (TSR)
+[Acessar o relatório] (https://isabelaabraz.atlassian.net/wiki/x/AYAE)
+
 Resumo da Execução
 Total de Testes: 6
 
@@ -41,7 +48,9 @@ Taxa de Passagem: 83,3%
 Conclusão e Decisão Final
 🔴 NO-GO (NÃO LANÇAR)
 
-O projeto não está apto para publicação devido ao bug crítico KAN-17. A falha na remoção de itens impacta diretamente a experiência do usuário e a integridade financeira do pedido. Recomenda-se correção imediata e reteste total do módulo de carrinho.
+
+O projeto não está apto para publicação devido ao bug crítico KAN-17. A falha na remoção de itens impacta diretamente a experiência do usuário e a integridade financeira do pedido. 
+Recomenda-se correção imediata e reteste total do módulo de carrinho de compras.
 
 🛠️ Tecnologias e Ferramentas Utilizadas
 Jira: Gestão de bugs e fluxo de trabalho.
