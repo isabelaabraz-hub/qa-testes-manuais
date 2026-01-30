@@ -63,3 +63,9 @@ MindMeister: Mapeamento visual de funcionalidades.
 MySQL: Validação técnica de dados e evidências.
 
 Markdown: Documentação do projeto.
+
+## 📂 Documentação e Links Úteis
+* 🗺️ [Mapa Mental Completo (MindMeister)][(https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/84cdc7b3cc6d0774910cbff26c658cadea7e6272/QA%20TESTE%20-%20BUG%20.png)]
+* 📑 [Plano de Teste Detalhado (PDF)](./Planilha-sem-titulo-Pagina1.pdf)
+* 📊 [Relatório Sumário de Testes (TSR)](https://isabelaabraz.atlassian.net/wiki/x/AYAE))
+* 🔗 [Meu LinkedIn](https://www.linkedin.com/in/isabela-braz)
