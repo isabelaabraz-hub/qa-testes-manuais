@@ -17,7 +17,8 @@ Abaixo, a tabela detalhada com os cenários testados, incluindo pré-condições
 Durante a execução, foi identificado um bug crítico no módulo de carrinho, documentado via Jira sob a issue KAN-17.
 [Visualizar o Mapa Mental] ( https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/84cdc7b3cc6d0774910cbff26c658cadea7e6272/QA%20TESTE%20-%20BUG%20.png )
 ou 
-[Acessar o link do Mapa Mental ] ( https://www.mindmeister.com/app/map/3927305585)
+[Acessar o link do Mapa Mental ] 
+( https://www.mindmeister.com/app/map/3927305585)
 
 Título: [Carrinho de Compras] Item não é excluído do Carrinho.
 
