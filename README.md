@@ -31,7 +31,7 @@ Prioridade: Alta.
 Resultado Atual: O item permanece na interface e no banco de dados após comando de remoção.
 
 Evidência Técnica (SQL): Para confirmar que o erro ocorria no backend, foi realizada a seguinte query no banco de dados.
-
+[Script SQL - Banco de Dados Fictício](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/286e81d289ae4015770fea624d66f4730a29f9f1/ecommerceSCOM.sql)
 
 SELECT * FROM carrinho_itens WHERE usuario_id = 1 AND produto_nome = 'Meia Esportiva';
 -- O registro persistiu no banco mesmo após a tentativa de exclusão.--
@@ -72,6 +72,7 @@ Markdown: Documentação do projeto.
 * 🗺️ [Mapa Mental Interativo (MindMeister)](https://mm.tt/map/3927305585?t=UCt3Yg3dv0)
 * 🖼️ [Mapa Mental - Planejamento de Teste (Imagem)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/Mapa%20Mental%20-%20Planejamento%20de%20Teste.png)
 * 📑 [Planilha de Casos de Teste (TC)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/Planilha%20TC.pdf)
+* 🗄️ [Script SQL - Banco de Dados Fictício](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/286e81d289ae4015770fea624d66f4730a29f9f1/ecommerceSCOM.sql)
 * 🐞 [Evidência de Bug Report (Jira)](https://github.com/isabelaabraz-hub/qa-testes-manuais/blob/9d949f1a255974b8688895eacd5ee01c242b0d6c/QA%20TESTE%20-%20BUG%20.png)
 * 📊 [Relatório Sumário de Testes (Confluence)](https://isabelaabraz.atlassian.net/wiki/x/AYAE)
 * 🔗 [Meu LinkedIn](https://www.linkedin.com/in/isabela-braz-88b910255/)
